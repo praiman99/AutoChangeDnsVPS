@@ -12,7 +12,12 @@ echo "nameserver 1.1.1.1" >> /etc/resolv.conf
 echo "nameserver 8.8.4.4" >> /etc/resolv.conf
 
 # Add Auto Change At Crontab
-echo "10 0 * * * root AutoChangeDnsVPS" >> /etc/crontab
+echo "10 0 * * * root AutoChangeDnsVPS" >> /etc/Crontab
+
+# Add Auto Enable warp
+wget -O warp "git.io/warp.sh" chmod +x warp
+echo "15 0 * * * root bash warp install" >> /etc/crontab
+echo "15 0 * * * root bash warp wg 4" >> /etc/crontab
 
 # Reboot
 echo ""
