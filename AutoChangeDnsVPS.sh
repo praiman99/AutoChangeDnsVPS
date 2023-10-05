@@ -16,7 +16,7 @@ echo "10 0 * * * root bash AutoChangeDnsVPS" >> /etc/crontab
 
 # Add Auto Enable warp
 wget -O warp "git.io/warp.sh" chmod +x warp
-echo "15 0 * * * root bash warp wg 4" >> /etc/crontab
+echo "15 0 * * * root bash warp wg4" >> /etc/crontab
 
 # Reboot
 echo ""
