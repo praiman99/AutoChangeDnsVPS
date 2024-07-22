@@ -22,5 +22,7 @@ echo "6 6 * * * root bash warp-cli enable-always-on" >> /etc/crontab
 
 # Enter your region before start
 echo
-read -rp " Please input your country code for netflix (example : 'sg' for singapore region) : " country
+read -rp " Please input your country code for netflix 
+ (example 'sg' for region singapore) 
+ please just short words my , sg , hk , id , jp , etc : " country
 bash <(curl -sSL https://gitlab.com/fscarmen/warp_unlock/-/raw/main/unlock.sh) -E -A $country -4 -ud -M 1 
