@@ -1,8 +1,9 @@
 #!/bin/bash
-==================================
+#=================================
 # Create by https://t.me/PR_Aiman
 # Copyright © Beginner 2024
-==================================
+#=================================
+
 # Remove old dns
 rm -f /etc/resolv.conf
 
@@ -28,7 +29,6 @@ clear
 # Show Status Warp
 echo
 bash warp status
-echo 
 read -n 1 -s -r -p " Press any key to Exit"
 echo
 exit
