@@ -3,6 +3,11 @@
 <p align="center">
 <a href="https://t.me/PR_Aiman"><img title="Made in Indonesia & Malaysia" src="https://img.shields.io/badge/MADE%20IN-INDONESIA & MALAYSIA-SCRIPT?colorA=%23ff0000&colorB=%23ffffff&colorC=%23ff0000&style=for-the-badge"></a>
 </p>
+<h3 align="center">Screenshorts</h3>
+ 
+ <img src="https://raw.githubusercontent.com/praiman99/AutoChangeDnsVPS/Beginner/screenshort.jpg" width="100%">
+
+- If the IPv4/ipv6 network shows "Warp", it means that the Warp server is running well. If the IPv4/IPv6 network shows "Normal" it means that is not using Warp Server but used your server normaly.
 
 - Auto Reboot VPS On 06:00 AM
 
