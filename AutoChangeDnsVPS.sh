@@ -26,7 +26,7 @@ bash warp wg4
 echo "5 6 * * * root bash warp restart" >> /etc/crontab
 echo "6 6 * * * root bash warp wg4" >> /etc/crontab
 clear
-cd
+
 # Show Status Warp
 echo
 bash warp status
