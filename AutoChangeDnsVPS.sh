@@ -24,10 +24,10 @@ bash warp install
 bash warp wg4
 echo "5 6 * * * root bash warp restart" >> /etc/crontab
 echo "6 6 * * * root bash warp wg4" >> /etc/crontab
-
-bash <(curl -sSL https://gitlab.com/fscarmen/warp_unlock/-/raw/main/unlock.sh) -E -A my -4 -ud -M 1 
+clear
 # Show Status Warp
 bash warp status
 echo 
-read -n 1 -s -r -p "Press any key to Exit"
+read -n 1 -s -r -p " Press any key to Exit"
+echo
 exit
