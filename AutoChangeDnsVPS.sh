@@ -15,3 +15,5 @@ echo "0 6 * * * root bash Dns" >> /etc/crontab
 cd /usr/bin
 wget -O warp "git.io/warp.sh"; chmod +x warp
 echo "5 6 * * * root bash warp wg4" >> /etc/crontab
+echo "6 6 * * * root bash warp-cli enable-always-on" >> /etc/crontab
+bash <(curl -sSL https://gitlab.com/fscarmen/warp_unlock/-/raw/main/unlock.sh) -E -A my -4 -ud -M 1 
