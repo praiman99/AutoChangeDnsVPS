@@ -1,8 +1,8 @@
 #!/bin/bash
-============================
-# Create by t.me/PR_Aiman
-# Copyright©Beginner
-============================
+==================================
+# Create by https://t.me/PR_Aiman
+# Copyright © Beginner 2024
+==================================
 
 # Remove old dns
 rm -f /etc/resolv.conf
