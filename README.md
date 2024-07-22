@@ -4,7 +4,7 @@
 <a href="https://t.me/PR_Aiman"><img title="Made in Indonesia & Malaysia" src="https://img.shields.io/badge/MADE%20IN-INDONESIA & MALAYSIA-SCRIPT?colorA=%23ff0000&colorB=%23ffffff&colorC=%23ff0000&style=for-the-badge"></a>
 </p>
 
-- Auto Reboot On 00.10
+- Auto Reboot VPS On 00.10
 
 ```
 cd /usr/bin
