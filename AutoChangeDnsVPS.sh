@@ -25,9 +25,9 @@ bash warp wg4
 echo "5 6 * * * root bash warp restart" >> /etc/crontab
 echo "6 6 * * * root bash warp wg4" >> /etc/crontab
 
-# Enter your region before start
-echo
-read -rp " Please input your country code for bypass netflix region
- (example 'sg' for region singapore) 
- please just short words my , sg , hk , id , jp , etc : " country
-bash <(curl -sSL https://gitlab.com/fscarmen/warp_unlock/-/raw/main/unlock.sh) -E -A $country -4 -ud -M 1 
+bash <(curl -sSL https://gitlab.com/fscarmen/warp_unlock/-/raw/main/unlock.sh) -E -A my -4 -ud -M 1 
+# Show Status Warp
+bash warp status
+echo 
+read -n 1 -s -r -p "Press any key to Exit"
+exit
