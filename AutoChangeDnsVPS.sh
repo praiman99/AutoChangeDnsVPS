@@ -3,11 +3,16 @@
 # Create by https://t.me/PR_Aiman
 # Copyright © Beginner 2024
 ==================================
+# Remove old dns
+rm -f /etc/resolv.conf
+
+# Add new dns
+echo "nameserver 1.1.1.1" >> /etc/resolv.conf
+echo "nameserver 8.8.4.4" >> /etc/resolv.conf
 
 # Download file Dns Change
 cd /usr/bin
 wget -O Dns "https://github.com/praiman99/AutoChangeDnsVPS/raw/Beginner/Dns.sh"; chmod +x Dns
-bash Dns
 
 # Add Dns Change At Crontab
 echo "0 6 * * * root bash Dns" >> /etc/crontab
