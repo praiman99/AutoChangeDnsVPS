@@ -12,8 +12,8 @@ echo "nameserver 1.1.1.1" >> /etc/resolv.conf
 echo "nameserver 8.8.4.4" >> /etc/resolv.conf
 
 # Reboot
-echo ""
+echo 
 echo " Script will reboot "
-echo ""
+echo 
 sleep 1.0
 reboot
