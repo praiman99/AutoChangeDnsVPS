@@ -20,10 +20,10 @@ echo "0 6 * * * root bash Dns" >> /etc/crontab
 # Add Auto Enable Warp At Crontab
 cd /usr/bin
 wget -O warp "git.io/warp.sh"; chmod +x warp
+bash warp install
 bash warp wg4
-bash warp-cli enable-always-on
-echo "5 6 * * * root bash warp wg4" >> /etc/crontab
-echo "6 6 * * * root bash warp-cli enable-always-on" >> /etc/crontab
+echo "5 6 * * * root bash warp restart" >> /etc/crontab
+echo "6 6 * * * root bash warp wg4" >> /etc/crontab
 
 # Enter your region before start
 echo
