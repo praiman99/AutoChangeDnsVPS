@@ -22,7 +22,11 @@ wget -O AutoChangeDnsVPS "https://github.com/praiman99/AutoChangeDnsVPS/raw/Begi
 <p align="center">
 <a href="https://github.com/praiman99"><img title="Github" src="https://img.shields.io/badge/PR Aiman-brightgreen?style=for-the-badge&logo=github"></a>
 
-<h3 align="center">Thanks to ALLAH S.W.T alhamdulillah syukur kehadrat illahi di atas ke pintaran dan kebijaksanaan yang telah di berikan daripada maha pencipta. semoga segala urusan di masa akan datang dipermudahkan</h3>
+<h3 align="center">Credit For Warp server to</h3>
+<p align="center">
+<a href="https://github.com/P3TERX"><img title="Github" src="https://img.shields.io/badge/P3TERX-brightgreen?style=for-the-badge&logo=github"></a>
+  
+<h3 align="center">Thanks to ALLAH S.W.T alhamdulillah syukur kehadrat illahi di atas ke pintaran dan kebijaksanaan yang telah di berikan daripada maha pencipta. semoga segala urusan di waktu akan datang dipermudahkan</h3>
 
 <p align="center">
   <a><img src="https://img.shields.io/badge/Copyright%20©-PR%20Aiman%20AutoChangeDns%202024.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
