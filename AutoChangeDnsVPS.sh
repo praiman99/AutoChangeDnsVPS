@@ -30,8 +30,7 @@ clear
 echo
 bash warp status
 read -n 1 -s -r -p " Press any key to Exit"
-echo
-exit
+echo 
 cd
 
 rm -f AutoChangeDnsVPS
