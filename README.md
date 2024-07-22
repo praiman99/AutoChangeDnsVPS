@@ -7,7 +7,7 @@
  
  <img src="https://raw.githubusercontent.com/praiman99/AutoChangeDnsVPS/Beginner/screenshort.jpg" width="100%">
 
-- If the IPv4/ipv6 network shows "Warp", it means that the Warp server is running well. If the IPv4/IPv6 network shows "Normal" it means that is not using Warp Server but used your server normaly.
+- If the IPv4 network shows "Warp", it means that the Warp server is running well. If the IPv4 network shows "Normal" it means that is not using Warp Server but used your server normaly.
 
 - Auto Reboot VPS On 06:00 AM
 
