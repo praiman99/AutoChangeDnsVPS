@@ -1,7 +1,7 @@
 <h1 align="center"> AutoChangeDnsVPS + Warp Server <img src="https://img.shields.io/badge/Version-1.0-blue.svg"></h1>
 
 <p align="center">
-<a href="https://t.me/PR_Aiman"><img title="Made in Malaysia" src="https://img.shields.io/badge/MADE%20IN-MALAYSIA-SCRIPT?colorA=%23ff0000&colorB=%23ffffff&colorC=%23ff0000&style=for-the-badge"></a>
+<a href="https://t.me/PR_Aiman"><img title="Made in Indonesia & Malaysia" src="https://img.shields.io/badge/MADE%20IN-INDONESIA & MALAYSIA-SCRIPT?colorA=%23ff0000&colorB=%23ffffff&colorC=%23ff0000&style=for-the-badge"></a>
 </p>
 
 - Auto Reboot On 00.10
