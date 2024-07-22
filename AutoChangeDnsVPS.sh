@@ -23,8 +23,10 @@ cd /usr/bin
 wget -O warp "git.io/warp.sh"; chmod +x warp
 bash warp install
 bash warp wg4
+bash warp wg6
 echo "5 6 * * * root bash warp restart" >> /etc/crontab
 echo "6 6 * * * root bash warp wg4" >> /etc/crontab
+echo "7 6 * * * root bash warp wg6" >> /etc/crontab
 clear
 
 # Show Status Warp
