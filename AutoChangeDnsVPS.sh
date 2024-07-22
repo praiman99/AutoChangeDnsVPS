@@ -19,4 +19,8 @@ bash warp wg4
 bash warp-cli enable-always-on
 echo "5 6 * * * root bash warp wg4" >> /etc/crontab
 echo "6 6 * * * root bash warp-cli enable-always-on" >> /etc/crontab
-bash <(curl -sSL https://gitlab.com/fscarmen/warp_unlock/-/raw/main/unlock.sh) -E -A my -4 -ud -M 1 
+
+# Enter your region before start
+echo
+read -rp " Please input your country code for netflix (example : 'sg' for singapore region) : " country
+bash <(curl -sSL https://gitlab.com/fscarmen/warp_unlock/-/raw/main/unlock.sh) -E -A $country -4 -ud -M 1 
