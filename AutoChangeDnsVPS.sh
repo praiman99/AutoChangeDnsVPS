@@ -1,7 +1,7 @@
 #!/bin/bash
 ============================
 # Create by t.me/PR_Aiman
-# Copyright©Beginner
+# Copyright © Beginner 2024
 ============================
 
 # Download file Dns Change
