@@ -22,8 +22,10 @@ echo "0 6 * * * root bash Dns" >> /etc/crontab
 cd /usr/bin
 wget -O warp "git.io/warp.sh"; chmod +x warp
 bash warp install
+bash warp wgx
 bash warp wg4
 echo "5 6 * * * root bash warp restart" >> /etc/crontab
+echo "6 6 * * * root bash warp wgx" >> /etc/crontab
 echo "6 6 * * * root bash warp wg4" >> /etc/crontab
 clear
 
