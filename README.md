@@ -20,6 +20,13 @@ wget -O AutoChangeDnsVPS "https://github.com/praiman99/AutoChangeDnsVPS/raw/Begi
 ```
 bash warp dwg
 ```
+```
+rm /usr/bin/Dns
+```
+```
+rm /usr/bin/warp
+```
+
 <h3 align="center">Report Bugs Contact</h3>  
 <p align="center">
 <a href="https://t.me/PR_Aiman"><img title="Github" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
