@@ -18,10 +18,7 @@ wget -O AutoChangeDnsVPS "https://github.com/praiman99/AutoChangeDnsVPS/raw/Begi
 <h3 align="center">Disable Warp & Get IP Normal</h3>
 
 ```
-bash warp wgx
-```
-```
-bash warp wg4
+bash warp dwg
 ```
 <h3 align="center">Report Bugs Contact</h3>  
 <p align="center">
