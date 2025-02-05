@@ -15,6 +15,13 @@
 cd /usr/bin
 wget -O AutoChangeDnsVPS "https://github.com/praiman99/AutoChangeDnsVPS/raw/Beginner/AutoChangeDnsVPS.sh"; chmod +x AutoChangeDnsVPS; bash AutoChangeDnsVPS
 ```
+<h3 align="center">Disable Warp & Get IP Normal</h3>
+```
+bash warp wgx
+```
+```
+bash warp wg4
+```
 <h3 align="center">Report Bugs Contact</h3>  
 <p align="center">
 <a href="https://t.me/PR_Aiman"><img title="Github" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
