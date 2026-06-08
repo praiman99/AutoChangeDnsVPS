@@ -17,13 +17,6 @@ echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 # Lock write permit fie
 sudo chattr +i /etc/resolv.conf
 
-# Download file Dns Change
-#cd /usr/bin
-#wget -O Dns "https://github.com/praiman99/AutoChangeDnsVPS/raw/Beginner/Dns.sh"; chmod +x Dns
-
-# Add Dns Change At Crontab
-#echo "0 6 * * * root bash Dns" >> /etc/crontab
-
 # Add Auto Enable Warp At Crontab
 cd /usr/bin
 wget -O warp "git.io/warp.sh"; chmod +x warp
@@ -41,5 +34,6 @@ bash warp status
 read -n 1 -s -r -p " Press any key to Exit"
 echo 
 exit
+cd
 
 rm -f AutoChangeDnsVPS
