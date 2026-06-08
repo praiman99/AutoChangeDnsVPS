@@ -9,8 +9,6 @@
 
 - If the IPv4 network shows "Warp", it means that the Warp server is running well. If the IPv4 network shows "Normal" it means that is not using Warp Server but used your server normaly.
 
-- Auto Reboot VPS On 06:00 AM
-
 ```
 cd /usr/bin
 wget -O AutoChangeDnsVPS "https://github.com/praiman99/AutoChangeDnsVPS/raw/Beginner/AutoChangeDnsVPS.sh"; chmod +x AutoChangeDnsVPS; bash AutoChangeDnsVPS
@@ -19,9 +17,6 @@ wget -O AutoChangeDnsVPS "https://github.com/praiman99/AutoChangeDnsVPS/raw/Begi
 
 ```
 bash warp dwg
-```
-```
-rm /usr/bin/Dns
 ```
 ```
 rm /usr/bin/warp
@@ -40,6 +35,6 @@ rm /usr/bin/warp
 <h3 align="center">Thanks to ALLAH S.W.T alhamdulillah syukur kehadrat illahi di atas ke pintaran dan kebijaksanaan yang telah di berikan daripada maha pencipta. semoga segala urusan di waktu akan datang dipermudahkan</h3>
 
 <p align="center">
-  <a><img src="https://img.shields.io/badge/Copyright%20©-PR%20Aiman%20AutoChangeDns%202024.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
+  <a><img src="https://img.shields.io/badge/Copyright%20©-PR%20Aiman%20AutoChangeDns%202026.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
     </p>
    </p>
