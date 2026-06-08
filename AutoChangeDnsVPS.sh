@@ -5,7 +5,7 @@
 #=================================
 
 # Remove old dns
-rm -f /etc/resolv.conf
+#rm -f /etc/resolv.conf
 
 # Unlock write permit file
 sudo chattr -i /etc/resolv.conf
@@ -18,11 +18,11 @@ echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 sudo chattr +i /etc/resolv.conf
 
 # Download file Dns Change
-cd /usr/bin
-wget -O Dns "https://github.com/praiman99/AutoChangeDnsVPS/raw/Beginner/Dns.sh"; chmod +x Dns
+#cd /usr/bin
+#wget -O Dns "https://github.com/praiman99/AutoChangeDnsVPS/raw/Beginner/Dns.sh"; chmod +x Dns
 
 # Add Dns Change At Crontab
-echo "0 6 * * * root bash Dns" >> /etc/crontab
+#echo "0 6 * * * root bash Dns" >> /etc/crontab
 
 # Add Auto Enable Warp At Crontab
 cd /usr/bin
