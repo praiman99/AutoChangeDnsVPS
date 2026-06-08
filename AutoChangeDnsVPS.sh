@@ -5,10 +5,10 @@
 #=================================
 
 # Remove old dns
-#rm -f /etc/resolv.conf
+rm -f /etc/resolv.conf
 
 # Unlock write permit file
-sudo chattr -i /etc/resolv.conf
+#sudo chattr -i /etc/resolv.conf
 
 # Add new dns
 echo "nameserver 1.1.1.1" >> /etc/resolv.conf
