@@ -1,15 +1,21 @@
 #!/bin/bash
 #=================================
 # Create by https://t.me/PR_Aiman
-# Copyright © Beginner 2024
+# Copyright © Beginner 2026
 #=================================
 
 # Remove old dns
 rm -f /etc/resolv.conf
 
+# Unlock write permit file
+sudo chattr -i /etc/resolv.conf
+
 # Add new dns
 echo "nameserver 1.1.1.1" >> /etc/resolv.conf
-echo "nameserver 8.8.4.4" >> /etc/resolv.conf
+echo "nameserver 8.8.8.8" >> /etc/resolv.conf
+
+# Lock write permit fie
+sudo chattr +i /etc/resolv.conf
 
 # Download file Dns Change
 cd /usr/bin
